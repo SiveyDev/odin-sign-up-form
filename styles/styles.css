@@ -3,8 +3,12 @@
     src: url(../fonts/Norse-Bold.otf);
 }
 
-p {
+header, main p {
     font-weight: bold;
     font-size: 1.5rem;
     font-family: sans-serif;
+}
+
+label {
+    font-size: 0.7rem;
 }

@@ -3,6 +3,19 @@
     src: url(../fonts/Norse-Bold.otf);
 }
 
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
 header, main p {
     font-weight: bold;
     font-size: 1.5rem;
@@ -11,4 +24,32 @@ header, main p {
 
 label {
     font-size: 0.7rem;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right {
+    background-image: url("../halie-west-25xggax4bSA-unsplash.jpg");
+    width: 33vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.left {
+    width: 67vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.logo {
+    font-family: norse-bold, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    font-size: 3rem;
+
 }

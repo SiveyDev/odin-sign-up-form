@@ -13,7 +13,12 @@ body {
 }
 
 h1 {
+    padding-top: 25px;
+}
+
+img {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header, main p {
@@ -26,16 +31,30 @@ label {
     font-size: 0.7rem;
 }
 
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+header {
+    padding-left: 50px;
+    padding-top: 20vh;
+}
+
+main {
+    padding-left: 50px;
+}
+
 .right {
     background-image: url("../halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
     width: 33vw;
     height: 100vh;
-    border: 1px solid black;
 }
 
 .left {
@@ -49,7 +68,9 @@ hr {
     color: white;
     display: flex;
     justify-content: center;
-    height: 8rem;
+    height: 8.5rem;
+    width: 100%;
     font-size: 3rem;
-
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 23vh;
 }

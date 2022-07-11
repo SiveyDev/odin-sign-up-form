@@ -24,7 +24,23 @@
             <main>
                 <p>Let's do this!</p>
                 <form action="example.com/path" method="post">
-                    <label for="firstName">FIRST NAME</label>
+                    <div style="float:left; position:relative; margin-right:40px;">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name=""firstName required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div style="position:relative;">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="123-456-7890" pattern="/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/" required>
+                        <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+                    </div>
+                    <!-- <label for="firstName">FIRST NAME</label>
                     <input type="text" id="firstName" name=""firstName required>
                     <label for="lastName">LAST NAME</label>
                     <input type="text" id="lastName" name="lastName" required>
@@ -35,7 +51,7 @@
                     <label for="password">PASSWORD</label>
                     <input type="password" id="password" name="password" required>
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+                    <input type="password" id="passwordConfirm" name="passwordConfirm" required> -->
                     <hr>
                     <button type="submit">Create Account</button>
                 </form>

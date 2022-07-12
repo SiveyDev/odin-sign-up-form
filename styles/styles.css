@@ -1,76 +1,111 @@
 @font-face {
-    font-family: norse-bold;
-    src: url(../fonts/Norse-Bold.otf);
+  font-family: norse-bold;
+  src: url(../fonts/Norse-Bold.otf);
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 img {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-header, main p {
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-family: sans-serif;
+header,
+main p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 
 label {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
-label, input {
-    display: flex;
-    flex-direction: column;
+label,
+input {
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header {
-    padding-left: 50px;
-    padding-top: 20vh;
+  padding-left: 50px;
+  padding-top: 20vh;
 }
 
 main {
-    padding-left: 50px;
+  padding-left: 50px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .right {
-    background-image: url("../halie-west-25xggax4bSA-unsplash.jpg");
-    background-size: cover;
-    width: 33vw;
-    height: 100vh;
+  background-image: url("../halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  width: 37vw;
+  height: 100vh;
 }
 
 .left {
-    width: 67vw;
-    height: 100vh;
-    border: 1px solid black;
+  width: 67vw;
+  height: 100vh;
+  border: 1px solid black;
 }
 
 .logo {
-    font-family: norse-bold, sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    height: 8.5rem;
-    width: 100%;
-    font-size: 3rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 23vh;
+  font-family: norse-bold, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 8.5rem;
+  width: 100%;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 23vh;
+}
+
+.have-account {
+  font-size: 1rem;
+  font-weight: unset;
+}
+
+.log {
+  font-weight: bold;
+  color: #596d48;
+}
+
+.credit,
+.credit a {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.credit {
+  position: absolute;
+  bottom: 10px;
+  width: inherit;
 }

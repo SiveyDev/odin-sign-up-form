@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="description" content="a demo sign-up form">
-        <meta charset="utf-8">
-        <title>Odin Sign-Up Form</title>
-        <link rel="stylesheet" href="styles/styles.css">
-        <link rel="icon" href="/plex-icon.png">
-    </head>
-    <body>
-        <div class="right">
-            <div class="logo">
-                <img src="/odin-lined.png" alt="odin project logo">
-                <h1>ODIN</h1>
-            </div>
-        </div>
-        <div class="left">
-            <header>
-                <p>This is not a real online service! You know you need something like this 
-                in your life to help you realize your deepest dreams. 
-                Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
-            </header>
-            <main>
-                <p>Let's do this!</p>
-                <form action="example.com/path" method="post">
-                    <div style="float:left; position:relative; margin-right:40px;">
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName" name=""firstName required>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div style="position:relative;">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName" name="lastName" required>
-                        <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="123-456-7890" pattern="/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/" required>
-                        <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="passwordConfirm" name="passwordConfirm" required>
-                    </div>
-                    <!-- <label for="firstName">FIRST NAME</label>
+  <head>
+    <meta name="description" content="a demo sign-up form" />
+    <meta charset="utf-8" />
+    <title>Odin Sign-Up Form</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="/plex-icon.png" />
+  </head>
+  <body>
+    <div class="right">
+      <div class="logo">
+        <img src="/odin-lined.png" alt="odin project logo" />
+        <h1>ODIN</h1>
+      </div>
+      <div class="credit">
+        <p>
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+          <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
+    </div>
+    <div class="left">
+      <header>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <br />
+        <p>You <em>know</em> you want to.</p>
+        <br />
+        <br />
+      </header>
+      <main>
+        <p>Let's do this!</p>
+        <form action="example.com/path" method="post">
+          <div style="float: left; position: relative; margin-right: 40px">
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" id="firstName" name="" firstName required />
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required />
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div style="position: relative">
+            <label for="lastName">LAST NAME</label>
+            <input type="text" id="lastName" name="lastName" required />
+            <label for="phoneNumber">PHONE NUMBER</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="123-456-7890"
+              pattern="/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/"
+              required
+            />
+            <label for="passwordConfirm">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              id="passwordConfirm"
+              name="passwordConfirm"
+              required
+            />
+          </div>
+          <!-- <label for="firstName">FIRST NAME</label>
                     <input type="text" id="firstName" name=""firstName required>
                     <label for="lastName">LAST NAME</label>
                     <input type="text" id="lastName" name="lastName" required>
@@ -52,12 +76,14 @@
                     <input type="password" id="password" name="password" required>
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
                     <input type="password" id="passwordConfirm" name="passwordConfirm" required> -->
-                    <hr>
-                    <button type="submit">Create Account</button>
-                </form>
-                <p>Already have an account? <span>Log in</span></p>
-            </main>
-        </div>
-        
-    </body>
+          <hr />
+          <button type="submit">Create Account</button>
+        </form>
+        <br />
+        <p class="have-account">
+          Already have an account? <span class="log">Log in</span>
+        </p>
+      </main>
+    </div>
+  </body>
 </html>

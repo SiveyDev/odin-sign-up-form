@@ -47,7 +47,7 @@ input {
 }
 
 form input:active {
-  border-color: blue;
+  border-color: purple;
 }
 
 label {
